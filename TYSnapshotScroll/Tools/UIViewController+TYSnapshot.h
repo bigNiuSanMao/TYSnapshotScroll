@@ -10,6 +10,6 @@
 
 @interface UIViewController (TYSnapshot)
 
-+ (UIViewController *)currentViewController;
++ (UIViewController *)currentViewController2;
 
 @end
