@@ -10,7 +10,7 @@
 
 @implementation UIViewController (TYSnapshot)
 
-+ (UIViewController *)currentViewController {
++ (UIViewController *)currentViewController2 {
     UIWindow *keyWindow = [UIApplication sharedApplication].keyWindow;
     UIViewController *vc = keyWindow.rootViewController;
     
