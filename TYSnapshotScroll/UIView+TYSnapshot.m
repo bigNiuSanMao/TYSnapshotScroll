@@ -56,7 +56,7 @@
     __block UIViewController *currentViewController;
     
     onMainThreadSync(^{
-        currentViewController = [UIViewController currentViewController];
+        currentViewController = [UIViewController currentViewController2];
         if (currentViewController){
             superview = currentViewController.view;
         }else{
